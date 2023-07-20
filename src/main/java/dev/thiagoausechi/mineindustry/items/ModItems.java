@@ -11,7 +11,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS         = DeferredRegister.create(ForgeRegistries.ITEMS, References.MOD_ID);
 
-    public static final RegistryObject<Item> WRENCH          = ITEMS.register("wrench", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WRENCH          = ITEMS.register("wrench", () -> new WrenchItem(new Item.Properties()));
 
     public static final RegistryObject<Item> RAW_IRON_DUST   = ITEMS.register("raw_iron_dust", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_COPPER_DUST = ITEMS.register("raw_copper_dust", () -> new Item(new Item.Properties()));
