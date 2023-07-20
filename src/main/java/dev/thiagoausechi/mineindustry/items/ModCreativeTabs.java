@@ -20,6 +20,7 @@ public class ModCreativeTabs {
                         output.accept(ModItems.RAW_IRON_DUST.get());
                         output.accept(ModItems.RAW_COPPER_DUST.get());
                         output.accept(ModItems.RAW_GOLD_DUST.get());
+                        output.accept(ModItems.IRON_ROD.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {
