@@ -1,0 +1,8 @@
+{
+  "wrench_use": {
+    "subtitle": "sounds.mineindustry.wrench_use",
+    "sounds": [
+      "mineindustry:wrench_use"
+    ]
+  }
+}

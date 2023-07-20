@@ -3,6 +3,7 @@ package dev.thiagoausechi.mineindustry;
 import dev.thiagoausechi.mineindustry.blocks.ModBlocks;
 import dev.thiagoausechi.mineindustry.items.ModCreativeTabs;
 import dev.thiagoausechi.mineindustry.items.ModItems;
+import dev.thiagoausechi.mineindustry.sounds.ModSounds;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -18,6 +19,7 @@ public class MineIndustry {
         ModCreativeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
