@@ -1,0 +1,8 @@
+{
+  "name": "Mine Industry Guide Book",
+  "landing_text": "Happy crafting and automating!",
+  "version": 1,
+  "creative_tab": "mineindustry:mineindustry",
+  "use_resource_pack": true,
+  "show_progress": false
+}
