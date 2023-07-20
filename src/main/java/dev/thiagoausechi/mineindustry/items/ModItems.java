@@ -12,7 +12,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS         = DeferredRegister.create(ForgeRegistries.ITEMS, References.MOD_ID);
 
     // Tools
-    public static final RegistryObject<Item> WRENCH          = ITEMS.register("wrench", () -> new WrenchItem(new Item.Properties()));
+    public static final RegistryObject<Item> WRENCH          = ITEMS.register("wrench", () -> new WrenchItem(new Item.Properties().stacksTo(1)));
 
     // Material
     public static final RegistryObject<Item> RAW_IRON_DUST   = ITEMS.register("raw_iron_dust", () -> new Item(new Item.Properties()));
