@@ -1,4 +1,4 @@
-<p align='center'> <img src="https://raw.githubusercontent.com/thiagoausechi/mineindustry/master/minefactory_logo.png" alt="Logo" height="150"/> </p>
+<p align='center'> <img src="https://raw.githubusercontent.com/thiagoausechi/mineindustry/master/mineindustry_logo.png" alt="Logo" height="150"/> </p>
 
 ---
 <h3 align="center">
@@ -7,7 +7,7 @@
 </h3>
 <br/>
 
-The Mine Factory Mod draws its inspiration from the beloved genres of factory building and management games, as well as
+The Mine Industry Mod draws its inspiration from the beloved genres of factory building and management games, as well as
 the creative and diverse world of Minecraft. Inspired by games like Factorio, Satisfactory, Nova Lands, this mod aims to
 bring
 the excitement of industrial automation and resource management to the Minecraft universe. Players will embark on a
@@ -18,7 +18,7 @@ Getting Started:
 ---
 
 1. Download and install the latest version of Minecraft Forge.
-2. ~~Download the Mine Factory Mod from here or from Modrinth.~~ (Not working yet!)
+2. ~~Download the Mine Industry Mod from here or from Modrinth.~~ (Not working yet!)
 3. Install the mod by placing the downloaded JAR file into your Minecraft "mods" folder.
 4. Launch Minecraft with the Forge profile and start your factory-building adventure!
 
@@ -29,7 +29,7 @@ improvements, please feel free to create an issue on this repository.
 
 Disclaimer:
 ---
-Please note that Mine Factory Mod is a fan-made project and is not affiliated with or endorsed by Mojang Studios or
+Please note that Mine Industry Mod is a fan-made project and is not affiliated with or endorsed by Mojang Studios or
 Microsoft Corporation.
 
 Acknowledgments:
@@ -40,8 +40,8 @@ enthusiasm, which has driven us to bring this mod to life.
 
 License:
 ---
-This End User License Agreement ("EULA") is a legal agreement between you (the "User") and Mine Factory Mod Development
-Team ("Developers") for the use of the Mine Factory Mod ("the Mod"). By downloading, installing, or using the Mod, you
+This End User License Agreement ("EULA") is a legal agreement between you (the "User") and Mine Industry Mod Development
+Team ("Developers") for the use of the Mine Industry Mod ("the Mod"). By downloading, installing, or using the Mod, you
 agree to be bound by the terms and conditions of this EULA. If you do not agree with these terms, do not install or use
 the Mod.
 
@@ -107,5 +107,5 @@ install or use the Mod.
 
 ---
 
-<i>Thank you for choosing Mine Factory Mod! We hope you enjoy the thrilling experience of automation and
+<i>Thank you for choosing Mine Industry Mod! We hope you enjoy the thrilling experience of automation and
 factory-building within the enchanting world of Minecraft. Happy crafting!</i>
