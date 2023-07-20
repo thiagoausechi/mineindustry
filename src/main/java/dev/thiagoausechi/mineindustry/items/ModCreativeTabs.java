@@ -15,7 +15,12 @@ public class ModCreativeTabs {
             () -> CreativeModeTab.builder()
                     .icon(ModItems.WRENCH.get()::getDefaultInstance)
                     .title(Component.translatable("creativetab.mineindustry_tab"))
-                    .displayItems((parameters, output) -> output.accept(ModItems.WRENCH.get())).build());
+                    .displayItems((parameters, output) -> {
+                        output.accept(ModItems.WRENCH.get());
+                        output.accept(ModItems.RAW_IRON_DUST.get());
+                        output.accept(ModItems.RAW_COPPER_DUST.get());
+                        output.accept(ModItems.RAW_GOLD_DUST.get());
+                    }).build());
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
