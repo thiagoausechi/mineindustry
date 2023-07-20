@@ -14,7 +14,7 @@ public class ModCreativeTabs {
     public static final RegistryObject<CreativeModeTab> MINEINDUSTRY_TAB = CREATIVE_MODE_TABS.register("mineindustry",
             () -> CreativeModeTab.builder()
                     .icon(ModItems.WRENCH.get()::getDefaultInstance)
-                    .title(Component.translatable("creativetab.mineindustry_tab"))
+                    .title(Component.translatable("itemGroup.mineindustry"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.WRENCH.get());
                         output.accept(ModItems.RAW_IRON_DUST.get());
