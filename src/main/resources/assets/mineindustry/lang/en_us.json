@@ -1,11 +1,13 @@
 {
+  "itemGroup.mineindustry": "Mine Industry Mod",
+
   "item.mineindustry.wrench": "Wrench",
   "item.mineindustry.raw_iron_dust": "Raw Iron Dust",
   "item.mineindustry.raw_copper_dust": "Raw Copper Dust",
   "item.mineindustry.raw_gold_dust": "Raw Gold Dust",
   "item.mineindustry.iron_rod": "Iron Rod",
 
-  "itemGroup.mineindustry": "Mine Industry Mod",
+  "block.mineindustry.drill": "Drill",
 
   "sounds.mineindustry.wrench_use": "Using a Wrench"
 }

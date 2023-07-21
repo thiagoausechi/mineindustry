@@ -1,6 +1,7 @@
 package dev.thiagoausechi.mineindustry.items;
 
 import dev.thiagoausechi.mineindustry.References;
+import dev.thiagoausechi.mineindustry.blocks.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,6 +22,8 @@ public class ModCreativeTabs {
                         output.accept(ModItems.RAW_COPPER_DUST.get());
                         output.accept(ModItems.RAW_GOLD_DUST.get());
                         output.accept(ModItems.IRON_ROD.get());
+
+                        output.accept(ModBlocks.DRILL.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {
