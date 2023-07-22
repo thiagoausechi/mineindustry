@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mineindustry:drill"
+          "name": "mineindustry:sand_extraction_node"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "mineindustry:blocks/drill"
+  "random_sequence": "mineindustry:blocks/sand_extraction_node"
 }

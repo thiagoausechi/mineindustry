@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "quality=impure": [
+      {
+        "model": "mineindustry:block/impure_gold_extraction_node"
+      },
+      {
+        "model": "mineindustry:block/impure_gold_extraction_node",
+        "y": 180
+      }
+    ],
+    "quality=normal": [
+      {
+        "model": "mineindustry:block/normal_gold_extraction_node"
+      },
+      {
+        "model": "mineindustry:block/normal_gold_extraction_node",
+        "y": 180
+      }
+    ],
+    "quality=pure": [
+      {
+        "model": "mineindustry:block/pure_gold_extraction_node"
+      },
+      {
+        "model": "mineindustry:block/pure_gold_extraction_node",
+        "y": 180
+      }
+    ]
+  }
+}

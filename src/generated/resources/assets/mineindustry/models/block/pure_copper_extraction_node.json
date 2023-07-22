@@ -1,0 +1,7 @@
+{
+  "parent": "mineindustry:block/templates/pure_extraction_node_template",
+  "textures": {
+    "base": "minecraft:block/copper_ore",
+    "ore": "minecraft:block/raw_copper_block"
+  }
+}

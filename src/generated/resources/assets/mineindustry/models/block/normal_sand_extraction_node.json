@@ -1,0 +1,7 @@
+{
+  "parent": "mineindustry:block/templates/normal_extraction_node_template",
+  "textures": {
+    "base": "minecraft:block/sand",
+    "ore": "minecraft:block/sand"
+  }
+}

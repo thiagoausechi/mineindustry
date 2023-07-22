@@ -1,2 +1,8 @@
-// 1.20.1	2023-07-21T14:16:26.0504833	Loot Tables
+// 1.20.1	2023-07-22T02:42:47.744651	Loot Tables
+c869983bcbbbddab780ded18ce9436fac1586f6b data/mineindustry/loot_tables/blocks/coal_extraction_node.json
+846463fb130d416a811356316c1aa5804a342646 data/mineindustry/loot_tables/blocks/copper_extraction_node.json
 9110ba35150ba99793ccbf568b7f9d90948055a3 data/mineindustry/loot_tables/blocks/drill.json
+58f6953004272c8c156f97a10582274f5532226a data/mineindustry/loot_tables/blocks/gold_extraction_node.json
+5bf8bfd8ca8cb0d4242df2df1eebf4d4dcc3c4fc data/mineindustry/loot_tables/blocks/iron_extraction_node.json
+72595b9f4e5a6686c03920974c3ef8a65799d52d data/mineindustry/loot_tables/blocks/redstone_extraction_node.json
+f013764821b4c4407ad99f8370f515fc040eeeb5 data/mineindustry/loot_tables/blocks/sand_extraction_node.json

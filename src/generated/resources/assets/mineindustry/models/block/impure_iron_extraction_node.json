@@ -1,0 +1,7 @@
+{
+  "parent": "mineindustry:block/templates/impure_extraction_node_template",
+  "textures": {
+    "base": "minecraft:block/iron_ore",
+    "ore": "minecraft:block/raw_iron_block"
+  }
+}
