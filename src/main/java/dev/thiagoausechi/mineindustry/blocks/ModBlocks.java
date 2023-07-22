@@ -1,6 +1,7 @@
 package dev.thiagoausechi.mineindustry.blocks;
 
 import dev.thiagoausechi.mineindustry.References;
+import dev.thiagoausechi.mineindustry.blocks.registries.IRegistry;
 import dev.thiagoausechi.mineindustry.items.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -12,14 +13,16 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.function.Supplier;
 
+// @formatter:off
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, References.MOD_ID);
-    public static final ArrayList<RegistryObject<? extends Block>> DATA_GEN = new ArrayList<>();
+    public static final HashMap<RegistryObject<Block>, IRegistry<Block>> BLOCKS_REGISTRIES = new HashMap<>();
 
-    public static final RegistryObject<Block> DRILL = registerBlock("drill", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)), false);
+    // Machines
+    public static final RegistryObject<Block> DRILL         = registerBlock("drill", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
 
     /* REGISTRATION METHODS */
     public static void register(IEventBus eventBus) {
@@ -27,18 +30,19 @@ public class ModBlocks {
     }
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
-        return registerBlock(name, block, true);
-    }
-
-    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, Boolean simpleBlockGen) {
         RegistryObject<T> blockRegistry = BLOCKS.register(name, block);
         registerBlockItem(name, blockRegistry);
 
-        if (simpleBlockGen)
-            DATA_GEN.add(blockRegistry);
-
         return blockRegistry;
     }
+
+    private static RegistryObject<Block> registerBlock(IRegistry<Block> registry)
+    {
+        RegistryObject<Block> blockRegistry = registry.register();
+        BLOCKS_REGISTRIES.put(blockRegistry, registry);
+        return blockRegistry;
+    }
+
 
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {
         return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
