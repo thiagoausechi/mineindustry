@@ -17,13 +17,9 @@ public class ModCreativeTabs {
                     .icon(ModItems.WRENCH.get()::getDefaultInstance)
                     .title(Component.translatable("itemGroup.mineindustry"))
                     .displayItems((parameters, output) -> {
-                        output.accept(ModItems.WRENCH.get());
-                        output.accept(ModItems.RAW_IRON_DUST.get());
-                        output.accept(ModItems.RAW_COPPER_DUST.get());
-                        output.accept(ModItems.RAW_GOLD_DUST.get());
-                        output.accept(ModItems.IRON_ROD.get());
-
-                        output.accept(ModBlocks.DRILL.get());
+                        // Temporary solution. It'll include everything at once, not ideal.
+                        ModItems.ITEMS.getEntries().forEach(item -> output.accept(item.get()));
+                        ModBlocks.BLOCKS.getEntries().forEach(block -> output.accept(block.get()));
                     }).build());
 
     public static void register(IEventBus eventBus) {
