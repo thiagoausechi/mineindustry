@@ -15,5 +15,10 @@
   "block.mineindustry.redstone_extraction_node": "Redstone Extraction Node",
   "block.mineindustry.sand_extraction_node": "Sand Extraction Node",
 
-  "sounds.mineindustry.wrench_use": "Using a Wrench"
+  "sounds.mineindustry.wrench_use": "Using a Wrench",
+
+  "advancements.mineindustry.root.title": "Mine Industry Mod",
+  "advancements.mineindustry.root.description": "Automation and factory-building mod",
+  "advancements.mineindustry.find_extraction_node.title": "To infinity...",
+  "advancements.mineindustry.find_extraction_node.description": "Find an extraction node"
 }

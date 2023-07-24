@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "consumed_item": {
+      "conditions": {},
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "mineindustry:textures/gui/advancements/backgrounds/bricks.png",
+    "description": {
+      "translate": "advancements.mineindustry.root.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mineindustry:wrench"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.mineindustry.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "consumed_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
