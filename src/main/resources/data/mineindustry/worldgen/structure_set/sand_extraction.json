@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "mineindustry:sand_extraction",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 828792932,
+
+    "spacing": 16,
+
+    "separation": 12
+  }
+}

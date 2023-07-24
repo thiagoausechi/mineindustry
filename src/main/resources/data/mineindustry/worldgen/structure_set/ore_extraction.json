@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "mineindustry:ore_extraction",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 628752931,
+
+    "spacing": 9,
+
+    "separation": 7
+  }
+}
