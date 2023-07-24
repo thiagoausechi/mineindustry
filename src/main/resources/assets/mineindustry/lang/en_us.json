@@ -8,6 +8,12 @@
   "item.mineindustry.iron_rod": "Iron Rod",
 
   "block.mineindustry.drill": "Drill",
+  "block.mineindustry.coal_extraction_node": "Coal Extraction Node",
+  "block.mineindustry.iron_extraction_node": "Iron Extraction Node",
+  "block.mineindustry.copper_extraction_node": "Copper Extraction Node",
+  "block.mineindustry.gold_extraction_node": "Gold Extraction Node",
+  "block.mineindustry.redstone_extraction_node": "Redstone Extraction Node",
+  "block.mineindustry.sand_extraction_node": "Sand Extraction Node",
 
   "sounds.mineindustry.wrench_use": "Using a Wrench"
 }
