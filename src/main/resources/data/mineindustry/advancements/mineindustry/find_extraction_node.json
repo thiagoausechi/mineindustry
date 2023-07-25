@@ -55,5 +55,10 @@
       "found_sand_extraction_node"
     ]
   ],
+  "rewards": {
+    "loot": [
+      "mineindustry:grant_guide"
+    ]
+  },
   "sends_telemetry_event": true
 }
